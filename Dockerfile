@@ -1,4 +1,4 @@
-FROM tomcat:9.0-jdk11-corretto-al2
+FROM tomcat:9.0.80-jdk11
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
 ADD WebProj_war.war /usr/local/tomcat/webapps/
